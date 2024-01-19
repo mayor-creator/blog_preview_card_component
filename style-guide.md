@@ -29,3 +29,14 @@ The designs were created to the following widths:
 
 - Family: [Figtree](https://fonts.google.com/specimen/Figtree)
 - Weights: 600, 800
+
+desktop font-size:
+headling : 24px
+date and learning paragraph: 14px
+description paragraphy: 16px
+name paragraph: 14px
+
+mobile font size:
+headling: 20px
+date & learning paragraph: 12px
+description and name paragraph: 14px
