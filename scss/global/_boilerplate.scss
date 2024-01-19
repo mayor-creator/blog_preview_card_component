@@ -8,6 +8,7 @@ body {
   margin: 0;
   font-family: 'Figtree', sans-serif;
   line-height: 1.5;
+  min-height: 100vh;
 }
 
 h1,
@@ -24,4 +25,8 @@ ul {
 img {
   display: block;
   max-width: 100%;
+}
+
+p {
+  margin: 0;
 }
