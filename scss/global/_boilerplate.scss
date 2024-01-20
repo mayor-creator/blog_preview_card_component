@@ -30,3 +30,9 @@ img {
 p {
   margin: 0;
 }
+
+.main {
+  width: min(100% - 2rem);
+  max-width: 24rem;
+  margin-inline: auto;
+}

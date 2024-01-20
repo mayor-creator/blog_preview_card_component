@@ -31,6 +31,12 @@ p {
   margin: 0;
 }
 
+.main {
+  width: min(100% - 2rem);
+  max-width: 24rem;
+  margin-inline: auto;
+}
+
 :root {
   --color-yellow: hsl(47, 88%, 63%);
   --color-white: hsl(0, 0%, 100%);
