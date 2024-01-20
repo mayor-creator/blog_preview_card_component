@@ -5,6 +5,7 @@
 }
 
 body {
+  background-color: var(--color-yellow);
   margin: 0;
   font-family: 'Figtree', sans-serif;
   line-height: 1.5;
@@ -12,9 +13,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 90rem;
   padding: 13.65625rem 0rem 13.71875rem 0rem;
-
 }
 
 h1,
@@ -38,7 +37,6 @@ p {
 }
 
 .wrapper {
-  border: 2px solid blue;
   width: min(100% - 2rem);
   max-width: 24rem;
   margin-inline: auto;

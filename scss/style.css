@@ -5,6 +5,7 @@
 }
 
 body {
+  background-color: var(--color-yellow);
   margin: 0;
   font-family: "Figtree", sans-serif;
   line-height: 1.5;
@@ -12,7 +13,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 90rem;
   padding: 13.65625rem 0rem 13.71875rem 0rem;
 }
 
@@ -37,7 +37,6 @@ p {
 }
 
 .wrapper {
-  border: 2px solid blue;
   width: min(100% - 2rem);
   max-width: 24rem;
   margin-inline: auto;
@@ -85,4 +84,17 @@ h1 {
 
 p {
   font-size: clamp(0.75rem, 0.661971831rem + 0.3755868545vw, 1rem);
+}
+
+.main {
+  display: flex;
+  padding: 1.5rem;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.5rem;
+  flex-shrink: 0;
+  border-radius: 1.25rem;
+  border: 1px solid var(--color-black);
+  background-color: var(--color-white);
+  box-shadow: 0.5rem 0.5rem 0rem 0rem var(--color-black);
 }/*# sourceMappingURL=style.css.map */
