@@ -16,6 +16,10 @@ body {
   justify-content: center;
   align-items: center;
   padding: 13.65625rem 0rem 13.71875rem 0rem;
+
+  @include v.mobile {
+    padding: 9.6875rem 1.5rem 9.75rem 1.5rem;
+  }
 }
 
 h1,

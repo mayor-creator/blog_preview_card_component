@@ -15,6 +15,11 @@ body {
   align-items: center;
   padding: 13.65625rem 0rem 13.71875rem 0rem;
 }
+@media (max-width: 30em) {
+  body {
+    padding: 9.6875rem 1.5rem 9.75rem 1.5rem;
+  }
+}
 
 h1,
 h2,
@@ -87,8 +92,8 @@ p {
 }
 
 .main {
-  display: flex;
   padding: 1.5rem;
+  display: flex;
   flex-direction: column;
   align-items: flex-start;
   gap: 1.5rem;
@@ -97,6 +102,11 @@ p {
   border: 1px solid var(--color-black);
   background-color: var(--color-white);
   box-shadow: 0.5rem 0.5rem 0rem 0rem var(--color-black);
+}
+@media (max-width: 30em) {
+  .main {
+    width: 20.4375rem;
+  }
 }
 
 .image__illustration {
@@ -133,6 +143,11 @@ p {
 .content__description {
   color: var(--color-grey);
   font-weight: 500;
+}
+@media (max-width: 30em) {
+  .content__description {
+    font-size: 0.875rem;
+  }
 }
 
 .author {
