@@ -129,4 +129,14 @@ p {
 .content__description {
   color: var(--color-grey);
   font-weight: 500;
+}
+
+.author {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.author__name {
+  font-weight: 800;
 }/*# sourceMappingURL=style.css.map */
