@@ -109,10 +109,6 @@ p {
   }
 }
 
-.image__illustration {
-  border-radius: 0.625rem;
-}
-
 .content {
   display: flex;
   flex-direction: column;
