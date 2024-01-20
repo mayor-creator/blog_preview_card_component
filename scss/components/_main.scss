@@ -38,6 +38,10 @@
   font-weight: 500;
 }
 
+.content__title:hover {
+  color: var(--color-yellow);
+}
+
 .content__description {
   color: var(--color-grey);
   font-weight: 500;
