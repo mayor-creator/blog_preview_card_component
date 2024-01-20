@@ -1,0 +1,8 @@
+// media query for mobile
+$mobile_width: 30em;
+
+@mixin mobile {
+  @media (max-width: #{$mobile_width}) {
+    @content;
+  }
+}
