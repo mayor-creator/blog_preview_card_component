@@ -97,4 +97,36 @@ p {
   border: 1px solid var(--color-black);
   background-color: var(--color-white);
   box-shadow: 0.5rem 0.5rem 0rem 0rem var(--color-black);
+}
+
+.image__illustration {
+  border-radius: 0.625rem;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.75rem;
+  align-self: stretch;
+}
+
+.content__category {
+  border-radius: 0.25rem;
+  background-color: var(--color-yellow);
+  padding: 0.25rem 0.75rem;
+}
+
+.content__learning {
+  text-align: center;
+  font-weight: 800;
+}
+
+.content__publishedDate {
+  font-weight: 500;
+}
+
+.content__description {
+  color: var(--color-grey);
+  font-weight: 500;
 }/*# sourceMappingURL=style.css.map */
