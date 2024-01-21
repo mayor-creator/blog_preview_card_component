@@ -17,9 +17,13 @@
   }
 }
 
-// .image__illustration {
-//   border-radius: 0.625rem;
-// }
+.image__illustration {
+  border-radius: 0.625rem;
+}
+
+.image img {
+  object-fit: cover;
+}
 
 .content {
   display: flex;

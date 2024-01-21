@@ -109,6 +109,15 @@ p {
   }
 }
 
+.image__illustration {
+  border-radius: 0.625rem;
+}
+
+.image img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 .content {
   display: flex;
   flex-direction: column;
