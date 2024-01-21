@@ -26,7 +26,8 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![Mobile Screenshot](./blogPreviewCardMobile.png)
+![Desktop Screenshot](./blogPreviewCardDesktop.png)
 
 ### Links
 
@@ -40,42 +41,36 @@ Users should be able to:
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
 
 ### What I learned
 
 ```html
-<h1>Some HTML code I'm proud of</h1>
-```
-
-```css
-.proud-of-this-css {
-	color: papayawhip;
-}
-```
-
-```js
-const proudOfThisFunc = () => {
-	console.log("🎉");
-};
+<div class="author">
+	<img
+		class="author__image"
+		src="./assets/images/image-avatar.webp"
+		alt="picture of the author"
+		width="32"
+		height="32" />
+	<p class="author__name">Greg Hooper</p>
+</div>
 ```
 
 ### Continued development
+
+- CSS Sass functions
+- CSS media queries
 
 ### Useful resources
 
 - [Auto resize an image](https://sentry.io/answers/how-do-i-auto-resize-an-image-to-fit-a-div-container/) - This article explain how to use the object fit property on an <img> element to fit the div container.
 
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Frontend Mentor - [@mayor-creator](https://www.frontendmentor.io/profile/mayor-creator)
+- Thread - [@mayor_creator](https://www.threads.net/@mayor_creator)
 
 ## Acknowledgments
+
+- Coder Coder Youtube [How to write media queries in css](https://www.youtube.com/watch?v=IsC5-C_nuF4)
