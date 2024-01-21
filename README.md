@@ -68,7 +68,8 @@ const proudOfThisFunc = () => {
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
+- [Auto resize an image](https://sentry.io/answers/how-do-i-auto-resize-an-image-to-fit-a-div-container/) - This article explain how to use the object fit property on an <img> element to fit the div container.
+
 - [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
 
 ## Author
